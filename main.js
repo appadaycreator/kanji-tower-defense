@@ -14,3 +14,4 @@ function setLevel(level, event) {
     }
     saveSettings();
 } 
+window.setLevel = setLevel; 
