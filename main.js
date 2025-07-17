@@ -24,6 +24,7 @@ let currentEnemy = null;
 let gameLoop;
 let waveTimer = 0;
 let spawnTimer = 0;
+let lastKanji = null;
 const gamePath = [
     {x: 0, y: 300},
     {x: 150, y: 300},
@@ -94,6 +95,7 @@ function resetGame() {
     bullets = [];
     particles = [];
     currentEnemy = null;
+    lastKanji = null;
     waveTimer = 0;
     spawnTimer = 0;
     document.getElementById('kanjiInput').disabled = true;
@@ -106,6 +108,10 @@ function resetGame() {
 }
 function spawnEnemy() {
     const kanjiData = getRandomKanji();
+    if (!kanjiData) {
+        showMessage('このレベルの単語がありません。', 'error');
+        return;
+    }
     const enemy = {
         id: Date.now(),
         x: gamePath[0].x,
@@ -132,7 +138,15 @@ function setCurrentEnemy(enemy) {
 }
 function getRandomKanji() {
     const levelData = kanjiDatabase[gameState.level];
-    return levelData[Math.floor(Math.random() * levelData.length)];
+    if (!levelData || levelData.length === 0) return null;
+    let candidate;
+    let tries = 0;
+    do {
+        candidate = levelData[Math.floor(Math.random() * levelData.length)];
+        tries++;
+    } while (levelData.length > 1 && lastKanji && candidate.kanji === lastKanji.kanji && tries < 10);
+    lastKanji = candidate;
+    return candidate;
 }
 function getRandomColor() {
     const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7', '#dda0dd', '#98d8c8'];
