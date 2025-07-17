@@ -9,7 +9,17 @@ export const kanjiDatabase = {
         {kanji: '川原', reading: 'かわら', meaning: 'riverbed'},
         {kanji: '田畑', reading: 'たはた', meaning: 'fields'},
         {kanji: '木陰', reading: 'こかげ', meaning: 'shade of a tree'},
-        {kanji: '月夜', reading: 'つきよ', meaning: 'moonlit night'}
+        {kanji: '月夜', reading: 'つきよ', meaning: 'moonlit night'},
+        {kanji: '青空', reading: 'あおぞら', meaning: 'blue sky'},
+        {kanji: '花火', reading: 'はなび', meaning: 'fireworks'},
+        {kanji: '草原', reading: 'そうげん', meaning: 'grassland'},
+        {kanji: '星空', reading: 'ほしぞら', meaning: 'starry sky'},
+        {kanji: '山林', reading: 'さんりん', meaning: 'mountain forest'},
+        {kanji: '水面', reading: 'すいめん', meaning: 'water surface'},
+        {kanji: '花道', reading: 'はなみち', meaning: 'flower path'},
+        {kanji: '竹林', reading: 'ちくりん', meaning: 'bamboo grove'},
+        {kanji: '雪山', reading: 'ゆきやま', meaning: 'snowy mountain'},
+        {kanji: '夕焼', reading: 'ゆうやけ', meaning: 'sunset glow'}
     ],
     grade2: [
         {kanji: '学校', reading: 'がっこう', meaning: 'school'},
@@ -21,7 +31,17 @@ export const kanjiDatabase = {
         {kanji: '友達', reading: 'ともだち', meaning: 'friend'},
         {kanji: '家族', reading: 'かぞく', meaning: 'family'},
         {kanji: '運動', reading: 'うんどう', meaning: 'exercise'},
-        {kanji: '朝食', reading: 'ちょうしょく', meaning: 'breakfast'}
+        {kanji: '朝食', reading: 'ちょうしょく', meaning: 'breakfast'},
+        {kanji: '昼食', reading: 'ちゅうしょく', meaning: 'lunch'},
+        {kanji: '夕食', reading: 'ゆうしょく', meaning: 'dinner'},
+        {kanji: '体育', reading: 'たいいく', meaning: 'physical education'},
+        {kanji: '音楽', reading: 'おんがく', meaning: 'music'},
+        {kanji: '図画', reading: 'ずが', meaning: 'drawing'},
+        {kanji: '作文', reading: 'さくぶん', meaning: 'composition'},
+        {kanji: '読書', reading: 'どくしょ', meaning: 'reading'},
+        {kanji: '遠足', reading: 'えんそく', meaning: 'excursion'},
+        {kanji: '運動場', reading: 'うんどうじょう', meaning: 'playground'},
+        {kanji: '図書館', reading: 'としょかん', meaning: 'library'}
     ],
     grade3: [
         {kanji: '運動会', reading: 'うんどうかい', meaning: 'sports day'},
@@ -33,7 +53,17 @@ export const kanjiDatabase = {
         {kanji: '給食当番', reading: 'きゅうしょくとうばん', meaning: 'lunch duty'},
         {kanji: '読書感想', reading: 'どくしょかんそう', meaning: 'book report'},
         {kanji: '遠足日記', reading: 'えんそくにっき', meaning: 'excursion diary'},
-        {kanji: '学級会', reading: 'がっきゅうかい', meaning: 'class meeting'}
+        {kanji: '学級会', reading: 'がっきゅうかい', meaning: 'class meeting'},
+        {kanji: '自由研究', reading: 'じゆうけんきゅう', meaning: 'independent research'},
+        {kanji: '社会見学', reading: 'しゃかいけんがく', meaning: 'field trip'},
+        {kanji: '理科実験', reading: 'りかじっけん', meaning: 'science experiment'},
+        {kanji: '音楽発表', reading: 'おんがくはっぴょう', meaning: 'music presentation'},
+        {kanji: '委員会', reading: 'いいんかい', meaning: 'committee'},
+        {kanji: '発表会', reading: 'はっぴょうかい', meaning: 'presentation'},
+        {kanji: '学芸会', reading: 'がくげいかい', meaning: 'school arts festival'},
+        {kanji: '読書感想文', reading: 'どくしょかんそうぶん', meaning: 'book report essay'},
+        {kanji: '給食時間', reading: 'きゅうしょくじかん', meaning: 'lunch time'},
+        {kanji: '図書委員', reading: 'としょいいん', meaning: 'library committee member'}
     ],
     grade4: [
         {kanji: '理科室', reading: 'りかしつ', meaning: 'science room'},
@@ -45,7 +75,17 @@ export const kanjiDatabase = {
         {kanji: '社会見学', reading: 'しゃかいけんがく', meaning: 'field trip'},
         {kanji: '発表会', reading: 'はっぴょうかい', meaning: 'presentation'},
         {kanji: '学芸会', reading: 'がくげいかい', meaning: 'school arts festival'},
-        {kanji: '遠足日記', reading: 'えんそくにっき', meaning: 'excursion diary'}
+        {kanji: '遠足日記', reading: 'えんそくにっき', meaning: 'excursion diary'},
+        {kanji: '社会科', reading: 'しゃかいか', meaning: 'social studies'},
+        {kanji: '家庭科', reading: 'かていか', meaning: 'home economics'},
+        {kanji: '算数科', reading: 'さんすうか', meaning: 'arithmetic'},
+        {kanji: '卒業式', reading: 'そつぎょうしき', meaning: 'graduation ceremony'},
+        {kanji: '修学旅行', reading: 'しゅうがくりょこう', meaning: 'school trip'},
+        {kanji: '学級会', reading: 'がっきゅうかい', meaning: 'class meeting'},
+        {kanji: '読書感想', reading: 'どくしょかんそう', meaning: 'book report'},
+        {kanji: '理科実験', reading: 'りかじっけん', meaning: 'science experiment'},
+        {kanji: '音楽発表', reading: 'おんがくはっぴょう', meaning: 'music presentation'},
+        {kanji: '委員長', reading: 'いいんちょう', meaning: 'committee chair'}
     ],
     grade5: [
         {kanji: '家庭科', reading: 'かていか', meaning: 'home economics'},
@@ -57,7 +97,17 @@ export const kanjiDatabase = {
         {kanji: '読書感想', reading: 'どくしょかんそう', meaning: 'book report'},
         {kanji: '社会科', reading: 'しゃかいか', meaning: 'social studies'},
         {kanji: '理科実験', reading: 'りかじっけん', meaning: 'science experiment'},
-        {kanji: '音楽発表', reading: 'おんがくはっぴょう', meaning: 'music presentation'}
+        {kanji: '音楽発表', reading: 'おんがくはっぴょう', meaning: 'music presentation'},
+        {kanji: '自由研究', reading: 'じゆうけんきゅう', meaning: 'independent research'},
+        {kanji: '社会見学', reading: 'しゃかいけんがく', meaning: 'field trip'},
+        {kanji: '卒業証書', reading: 'そつぎょうしょうしょ', meaning: 'diploma'},
+        {kanji: '修了証書', reading: 'しゅうりょうしょうしょ', meaning: 'certificate of completion'},
+        {kanji: '卒業文集', reading: 'そつぎょうぶんしゅう', meaning: 'graduation essays'},
+        {kanji: '学年主任', reading: 'がくねんしゅにん', meaning: 'grade leader'},
+        {kanji: '委員長', reading: 'いいんちょう', meaning: 'committee chair'},
+        {kanji: '学芸会', reading: 'がくげいかい', meaning: 'school arts festival'},
+        {kanji: '発表会', reading: 'はっぴょうかい', meaning: 'presentation'},
+        {kanji: '図書委員', reading: 'としょいいん', meaning: 'library committee member'}
     ],
     grade6: [
         {kanji: '卒業式', reading: 'そつぎょうしき', meaning: 'graduation ceremony'},
@@ -69,7 +119,15 @@ export const kanjiDatabase = {
         {kanji: '委員長', reading: 'いいんちょう', meaning: 'committee chair'},
         {kanji: '学年主任', reading: 'がくねんしゅにん', meaning: 'grade leader'},
         {kanji: '卒業証書', reading: 'そつぎょうしょうしょ', meaning: 'diploma'},
-        {kanji: '修了証書', reading: 'しゅうりょうしょうしょ', meaning: 'certificate of completion'}
+        {kanji: '修了証書', reading: 'しゅうりょうしょうしょ', meaning: 'certificate of completion'},
+        {kanji: '自由研究', reading: 'じゆうけんきゅう', meaning: 'independent research'},
+        {kanji: '社会見学', reading: 'しゃかいけんがく', meaning: 'field trip'},
+        {kanji: '理科実験', reading: 'りかじっけん', meaning: 'science experiment'},
+        {kanji: '音楽発表', reading: 'おんがくはっぴょう', meaning: 'music presentation'},
+        {kanji: '卒業旅行', reading: 'そつぎょうりょこう', meaning: 'graduation trip'},
+        {kanji: '学芸会', reading: 'がくげいかい', meaning: 'school arts festival'},
+        {kanji: '発表会', reading: 'はっぴょうかい', meaning: 'presentation'},
+        {kanji: '図書委員', reading: 'としょいいん', meaning: 'library committee member'}
     ],
     middle: [
         {kanji: '生徒会', reading: 'せいとかい', meaning: 'student council'},
@@ -81,7 +139,17 @@ export const kanjiDatabase = {
         {kanji: '卒業式', reading: 'そつぎょうしき', meaning: 'graduation ceremony'},
         {kanji: '修学旅行', reading: 'しゅうがくりょこう', meaning: 'school trip'},
         {kanji: '学級会', reading: 'がっきゅうかい', meaning: 'class meeting'},
-        {kanji: '委員会', reading: 'いいんかい', meaning: 'committee'}
+        {kanji: '委員会', reading: 'いいんかい', meaning: 'committee'},
+        {kanji: '文化祭', reading: 'ぶんかさい', meaning: 'school festival'},
+        {kanji: '体育祭', reading: 'たいいくさい', meaning: 'sports festival'},
+        {kanji: '合唱祭', reading: 'がっしょうさい', meaning: 'choral festival'},
+        {kanji: '卒業証書', reading: 'そつぎょうしょうしょ', meaning: 'diploma'},
+        {kanji: '修了証書', reading: 'しゅうりょうしょうしょ', meaning: 'certificate of completion'},
+        {kanji: '卒業文集', reading: 'そつぎょうぶんしゅう', meaning: 'graduation essays'},
+        {kanji: '学年主任', reading: 'がくねんしゅにん', meaning: 'grade leader'},
+        {kanji: '委員長', reading: 'いいんちょう', meaning: 'committee chair'},
+        {kanji: '学芸会', reading: 'がくげいかい', meaning: 'school arts festival'},
+        {kanji: '発表会', reading: 'はっぴょうかい', meaning: 'presentation'}
     ],
     common: [
         {kanji: '経済学', reading: 'けいざいがく', meaning: 'economics'},
@@ -93,7 +161,17 @@ export const kanjiDatabase = {
         {kanji: '人工知能', reading: 'じんこうちのう', meaning: 'artificial intelligence'},
         {kanji: '情報社会', reading: 'じょうほうしゃかい', meaning: 'information society'},
         {kanji: '国際交流', reading: 'こくさいこうりゅう', meaning: 'international exchange'},
-        {kanji: '科学技術', reading: 'かがくぎじゅつ', meaning: 'science and technology'}
+        {kanji: '科学技術', reading: 'かがくぎじゅつ', meaning: 'science and technology'},
+        {kanji: '新幹線', reading: 'しんかんせん', meaning: 'bullet train'},
+        {kanji: '携帯電話', reading: 'けいたいでんわ', meaning: 'mobile phone'},
+        {kanji: '電子辞書', reading: 'でんしじしょ', meaning: 'electronic dictionary'},
+        {kanji: '自動販売', reading: 'じどうはんばい', meaning: 'vending'},
+        {kanji: '高速道路', reading: 'こうそくどうろ', meaning: 'expressway'},
+        {kanji: '国際空港', reading: 'こくさいくうこう', meaning: 'international airport'},
+        {kanji: '情報通信', reading: 'じょうほうつうしん', meaning: 'information communication'},
+        {kanji: '経済成長', reading: 'けいざいせいちょう', meaning: 'economic growth'},
+        {kanji: '社会保障', reading: 'しゃかいほしょう', meaning: 'social security'},
+        {kanji: '国民健康', reading: 'こくみんけんこう', meaning: 'national health'}
     ],
     nando: [
         {kanji: '海月', reading: 'くらげ', meaning: 'jellyfish'},
@@ -105,6 +183,16 @@ export const kanjiDatabase = {
         {kanji: '鰐梨', reading: 'アボカド', meaning: 'avocado'},
         {kanji: '海豚', reading: 'いるか', meaning: 'dolphin'},
         {kanji: '蒲公英', reading: 'たんぽぽ', meaning: 'dandelion'},
-        {kanji: '向日葵', reading: 'ひまわり', meaning: 'sunflower'}
+        {kanji: '向日葵', reading: 'ひまわり', meaning: 'sunflower'},
+        {kanji: '秋桜', reading: 'こすもす', meaning: 'cosmos'},
+        {kanji: '蓬莱', reading: 'ほうらい', meaning: 'paradise'},
+        {kanji: '金糸雀', reading: 'かなりあ', meaning: 'canary'},
+        {kanji: '時雨', reading: 'しぐれ', meaning: 'drizzle'},
+        {kanji: '白粉花', reading: 'おしろいばな', meaning: 'four o’clock flower'},
+        {kanji: '鈴蘭', reading: 'すずらん', meaning: 'lily of the valley'},
+        {kanji: '躑躅', reading: 'つつじ', meaning: 'azalea'},
+        {kanji: '忍冬', reading: 'すいかずら', meaning: 'honeysuckle'},
+        {kanji: '風信子', reading: 'ひやしんす', meaning: 'hyacinth'},
+        {kanji: '紫陽花', reading: 'あじさい', meaning: 'hydrangea'}
     ]
 }; 
