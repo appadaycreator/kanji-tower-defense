@@ -419,7 +419,7 @@ export const kanjiDatabase = {
         {kanji: '蓬莱', reading: 'ほうらい', meaning: 'paradise'},
         {kanji: '金糸雀', reading: 'かなりあ', meaning: 'canary'},
         {kanji: '時雨', reading: 'しぐれ', meaning: 'drizzle'},
-        {kanji: '白粉花', reading: 'おしろいばな', meaning: 'four o'clock flower'},
+        {kanji: '白粉花', reading: 'おしろいばな', meaning: 'four oclock flower'},
         {kanji: '鈴蘭', reading: 'すずらん', meaning: 'lily of the valley'},
         {kanji: '躑躅', reading: 'つつじ', meaning: 'azalea'},
         {kanji: '忍冬', reading: 'すいかずら', meaning: 'honeysuckle'},
