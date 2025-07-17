@@ -1440,14 +1440,13 @@
         // フォントサイズ設定
         function setFontSize(size) {
             gameState.fontSize = size;
-            
             // フォントサイズクラスを更新
             document.querySelectorAll('.font-size-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-            
-            event.target.classList.add('active');
-            
+            // event.targetがundefinedの場合に備え、明示的にボタンを取得
+            const btn = document.querySelector(`.font-size-btn[onclick*="setFontSize('${size}')"]`);
+            if (btn) btn.classList.add('active');
             // CSS変数でフォントサイズを調整
             const fontSizes = {
                 xs: '0.75rem',
@@ -1456,9 +1455,7 @@
                 lg: '1.125rem',
                 xl: '1.25rem'
             };
-            
             document.documentElement.style.setProperty('--font-size', fontSizes[size]);
-            
             saveSettings();
         }
         
