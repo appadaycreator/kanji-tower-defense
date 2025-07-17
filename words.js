@@ -94,5 +94,17 @@ export const kanjiDatabase = {
         {kanji: '情報社会', reading: 'じょうほうしゃかい', meaning: 'information society'},
         {kanji: '国際交流', reading: 'こくさいこうりゅう', meaning: 'international exchange'},
         {kanji: '科学技術', reading: 'かがくぎじゅつ', meaning: 'science and technology'}
+    ],
+    nando: [
+        {kanji: '海月', reading: 'くらげ', meaning: 'jellyfish'},
+        {kanji: '木菟', reading: 'みみずく', meaning: 'horned owl'},
+        {kanji: '山茶花', reading: 'さざんか', meaning: 'sasanqua camellia'},
+        {kanji: '石榴', reading: 'ざくろ', meaning: 'pomegranate'},
+        {kanji: '杜若', reading: 'かきつばた', meaning: 'iris'},
+        {kanji: '海豹', reading: 'あざらし', meaning: 'seal'},
+        {kanji: '鰐梨', reading: 'アボカド', meaning: 'avocado'},
+        {kanji: '海豚', reading: 'いるか', meaning: 'dolphin'},
+        {kanji: '蒲公英', reading: 'たんぽぽ', meaning: 'dandelion'},
+        {kanji: '向日葵', reading: 'ひまわり', meaning: 'sunflower'}
     ]
 }; 
